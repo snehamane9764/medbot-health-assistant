@@ -10,7 +10,6 @@ ENV/
 backend/venv/
 *.db
 *.sqlite3
-*.pyc
 
 # Node
 node_modules/
@@ -23,7 +22,6 @@ yarn-error.log*
 .env.production.local
 build/
 dist/
-.cache/
 
 # React Native / Expo
 .expo/
@@ -34,7 +32,6 @@ dist/
 *.key
 *.mobileprovision
 *.orig.*
-web-build/
 
 # IDE
 .vscode/
@@ -43,28 +40,17 @@ web-build/
 *.swo
 *~
 .DS_Store
-*.code-workspace
 
 # OS
 Thumbs.db
 .DS_Store
-.AppleDouble
-.LSOverride
 
 # Logs
 *.log
 logs/
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
-# Coverage
-coverage/
-.nyc_output/
-*.lcov
 
 # Misc
-.parcel-cache/
 .cache/
-.temp/
-temp/
+.parcel-cache/
+coverage/
+.nyc_output/
