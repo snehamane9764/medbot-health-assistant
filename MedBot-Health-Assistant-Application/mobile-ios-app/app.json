@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "MedBot",
+    "slug": "medbot-health-assistant",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "backgroundColor": "#F4F8F7"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.snehamane.medbot",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "package": "com.snehamane.medbot"
+    },
+    "web": {
+      "bundler": "metro"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "45b3080f-e585-428d-a0cc-4907eb17b798"
+      }
+    }
+  }
+}
