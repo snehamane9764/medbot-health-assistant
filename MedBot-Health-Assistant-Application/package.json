@@ -1,0 +1,16 @@
+{
+  "name": "medbot-health-assistant-showcase",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "npm --prefix mobile-ios-app start",
+    "ios": "npm --prefix mobile-ios-app run ios",
+    "android": "npm --prefix mobile-ios-app run android",
+    "web": "npm --prefix mobile-ios-app run web",
+    "build:web": "npm --prefix mobile-ios-app run build:web",
+    "offline:web": "npm --prefix mobile-ios-app run offline:web",
+    "offline:web:phone": "npm --prefix mobile-ios-app run offline:web:phone",
+    "test": "npm --prefix mobile-ios-app test",
+    "build:ios": "npm --prefix mobile-ios-app run build:ios"
+  }
+}
