@@ -1,0 +1,19 @@
+{
+  "name": "MedBot Health Assistant",
+  "short_name": "MedBot",
+  "description": "Offline-friendly preliminary health assistant for COVID-19 symptom assessment.",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#F4F8F7",
+  "theme_color": "#0B766E",
+  "icons": [
+    {
+      "src": "./medbot-icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
